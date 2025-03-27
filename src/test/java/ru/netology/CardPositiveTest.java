@@ -28,7 +28,7 @@ public class CardPositiveTest {
     })
     void shouldRegisterAccount(String city, int correctDate, String name, String phone) {
         String currentDay = getDate(correctDate, "dd.MM.yyyy");
-        Configuration.holdBrowserOpen = true;
+//        Configuration.holdBrowserOpen = true;
         open("http://localhost:9999/");
         $("[data-test-id=city] input").setValue(city);
         $("[data-test-id=date] [type=tel]").sendKeys(Keys.chord(Keys.LEFT_CONTROL, "a"), Keys.DELETE);
