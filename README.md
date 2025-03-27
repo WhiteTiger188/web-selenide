@@ -1,0 +1,1 @@
+![Build Status](https://github.com/WhiteTiger188/web-selenide/actions/workflows/gradle.yml/badge.svg)
